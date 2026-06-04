@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OdontoVida | Clínica Odontológica Premium — Cuidado Moderno para o Seu Sorriso</title>
+  <meta name="description" content="Clínica odontológica com atendimento humanizado, tratamentos personalizados e tecnologia moderna. Clareamento dental, implantes, ortodontia e mais. Agende sua avaliação pelo WhatsApp.">
+  <meta name="keywords" content="clínica odontológica, dentista, clareamento dental, implante dentário, aparelho ortodôntico, dentista perto de mim, tratamento odontológico, lentes de contato dental">
+  <meta name="author" content="OdontoVida">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="OdontoVida | Clínica Odontológica Premium">
+  <meta property="og:description" content="Cuidado odontológico moderno para transformar o seu sorriso. Agende sua avaliação.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo" aria-label="OdontoVida - Página inicial">
+        <div class="logo-icon">🦷</div>
+        <span>OdontoVida</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." class="btn btn-primary btn-sm" target="_blank" rel="noopener" id="header-whatsapp-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu de navegação" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação mobile">
+    <a href="#inicio">Início</a>
+    <a href="#tratamentos">Tratamentos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+    <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." class="btn btn-primary" target="_blank" rel="noopener">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Agendar pelo WhatsApp
+    </a>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero section" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          Referência em odontologia moderna
+        </div>
+
+        <h1>Cuidado odontológico moderno para <span class="highlight">transformar o seu sorriso</span></h1>
+
+        <p class="hero-description">
+          Tratamentos personalizados, atendimento humanizado e tecnologia de ponta para cuidar da sua saúde bucal com segurança e conforto.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." class="btn btn-primary btn-lg" target="_blank" rel="noopener" id="hero-whatsapp-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Agendar avaliação pelo WhatsApp
+          </a>
+          <a href="#tratamentos" class="btn btn-secondary btn-lg" id="hero-treatments-btn">
+            Conhecer tratamentos
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-item">
+            <div class="trust-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </div>
+            Atendimento humanizado
+          </div>
+          <div class="trust-item">
+            <div class="trust-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            Estrutura moderna
+          </div>
+          <div class="trust-item">
+            <div class="trust-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </div>
+            Profissionais qualificados
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/img/hero.png" alt="Interior moderno de clínica odontológica com profissional sorrindo" width="600" height="520" loading="eager">
+
+        <div class="hero-float-card card-1">
+          <div class="float-card-icon green">✓</div>
+          <div>
+            <div class="float-card-text">+2.500 pacientes</div>
+            <div class="float-card-sub">atendidos com excelência</div>
+          </div>
+        </div>
+
+        <div class="hero-float-card card-2">
+          <div class="float-card-icon blue">⭐</div>
+          <div>
+            <div class="float-card-text">4.9 de avaliação</div>
+            <div class="float-card-sub">no Google</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BENEFITS ============ -->
+  <section class="benefits section" id="beneficios">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Por que nos escolher</span>
+        <h2 class="section-title mx-auto">A experiência que você merece em cada consulta</h2>
+        <p class="section-subtitle mx-auto">Cada detalhe da nossa clínica foi pensado para oferecer conforto, confiança e os melhores resultados para a sua saúde bucal.</p>
+      </div>
+
+      <div class="benefits-grid reveal-stagger" id="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">❤️</div>
+          <h3>Atendimento humanizado</h3>
+          <p>Ouvimos suas necessidades com atenção e respeito, criando um vínculo de confiança desde a primeira consulta.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🎯</div>
+          <h3>Tratamentos personalizados</h3>
+          <p>Cada plano de tratamento é desenvolvido de forma individual, respeitando suas expectativas e condições clínicas.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">💡</div>
+          <h3>Tecnologia e conforto</h3>
+          <p>Equipamentos modernos e técnicas atualizadas para procedimentos mais seguros, rápidos e confortáveis.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">📍</div>
+          <h3>Localização acessível</h3>
+          <p>Fácil acesso, estacionamento próximo e ambiente preparado para recebê-lo com todo o cuidado.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">📱</div>
+          <h3>Agendamento rápido</h3>
+          <p>Marque sua consulta diretamente pelo WhatsApp, sem burocracia. Resposta rápida e horários flexíveis.</p>
+        </div>
+
+        <div class="benefit-card">
+          <div class="benefit-icon">🛡️</div>
+          <h3>Ambiente seguro</h3>
+          <p>Protocolos rigorosos de biossegurança e esterilização, garantindo um ambiente limpo e seguro para você.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TREATMENTS ============ -->
+  <section class="treatments section" id="tratamentos">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Nossos tratamentos</span>
+        <h2 class="section-title mx-auto">Soluções completas para a saúde e estética do seu sorriso</h2>
+        <p class="section-subtitle mx-auto">Oferecemos uma ampla gama de tratamentos odontológicos, sempre com foco no seu bem-estar e nos melhores resultados.</p>
+      </div>
+
+      <div class="treatments-grid reveal-stagger" id="treatments-grid">
+        <div class="treatment-card">
+          <div class="treatment-icon">✨</div>
+          <h3>Clareamento dental</h3>
+          <p>Dentes mais brancos com segurança e naturalidade. Resultados visíveis que realçam a beleza do seu sorriso.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20clareamento%20dental." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">🪥</div>
+          <h3>Limpeza e prevenção</h3>
+          <p>A base de uma boa saúde bucal. Remoção de tártaro e placa para manter seus dentes e gengivas saudáveis.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20limpeza%20dental." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">😁</div>
+          <h3>Ortodontia</h3>
+          <p>Aparelhos fixos e alinhadores para corrigir o posicionamento dos dentes, melhorando função e estética.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20ortodontia." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">🦷</div>
+          <h3>Implantes dentários</h3>
+          <p>Recupere dentes perdidos com implantes seguros e duradouros. A solução definitiva para mastigação e estética.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20implantes%20dentários." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">💎</div>
+          <h3>Lentes de contato dental</h3>
+          <p>Lâminas ultrafinas que transformam o formato, cor e alinhamento dos dentes, criando um sorriso harmonioso.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20lentes%20de%20contato%20dental." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">🔧</div>
+          <h3>Restaurações</h3>
+          <p>Repare dentes danificados por cárie ou fraturas com materiais estéticos que devolvem forma e função natural.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20restaurações." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">🩺</div>
+          <h3>Tratamento de canal</h3>
+          <p>Procedimento para salvar dentes comprometidos, eliminando dor e infecção com técnicas modernas e confortáveis.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20tratamento%20de%20canal." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="treatment-card">
+          <div class="treatment-icon">👶</div>
+          <h3>Odontopediatria</h3>
+          <p>Cuidado especial e acolhedor para os pequenos. Prevenção e tratamento adaptados para crianças se sentirem seguras.</p>
+          <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20odontopediatria." class="treatment-link" target="_blank" rel="noopener">
+            Saber mais
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about section" id="sobre">
+    <div class="container">
+      <div class="about-image reveal">
+        <img src="assets/img/about.png" alt="Recepção moderna e acolhedora da clínica OdontoVida" width="600" height="480" loading="lazy">
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Anos de experiência</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">2.5k</div>
+            <div class="stat-label">Pacientes atendidos</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <span class="section-label">Sobre a clínica</span>
+        <h2 class="section-title">Um espaço dedicado ao cuidado completo da sua saúde bucal</h2>
+
+        <p class="about-text">
+          A OdontoVida nasceu do desejo de oferecer uma odontologia diferente — onde o paciente está no centro de cada decisão. Aqui, combinamos estrutura moderna, profissionais especializados e um atendimento verdadeiramente humano para proporcionar a melhor experiência em saúde bucal.
+        </p>
+        <p class="about-text">
+          Acreditamos que cada sorriso é único e merece um tratamento personalizado. Por isso, investimos constantemente em tecnologia e formação, para entregar resultados que superam expectativas — com segurança, transparência e respeito ao seu tempo.
+        </p>
+
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Equipe especializada</span>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Equipamentos de última geração</span>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Biossegurança rigorosa</span>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Ambiente acolhedor</span>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Transparência no tratamento</span>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            </div>
+            <span>Compromisso com resultados</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUTHORITY ============ -->
+  <section class="authority section" id="diferenciais">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Nossos diferenciais</span>
+        <h2 class="section-title mx-auto">O que nos torna a escolha certa para o seu sorriso</h2>
+        <p class="section-subtitle mx-auto">Cada aspecto da nossa clínica foi planejado para garantir que você tenha a melhor experiência possível.</p>
+      </div>
+
+      <div class="authority-grid reveal-stagger" id="authority-grid">
+        <div class="authority-card">
+          <div class="authority-card-icon">🎓</div>
+          <h3>Profissionais especializados</h3>
+          <p>Nossa equipe é formada por dentistas com especialização e atualização constante nas melhores técnicas do mercado.</p>
+        </div>
+
+        <div class="authority-card">
+          <div class="authority-card-icon">🕐</div>
+          <h3>Atendimento com hora marcada</h3>
+          <p>Respeitamos o seu tempo. Nosso sistema de agendamento garante pontualidade e organização em cada consulta.</p>
+        </div>
+
+        <div class="authority-card">
+          <div class="authority-card-icon">🔬</div>
+          <h3>Equipamentos modernos</h3>
+          <p>Investimos em tecnologia de ponta para oferecer diagnósticos precisos e procedimentos mais eficientes e confortáveis.</p>
+        </div>
+
+        <div class="authority-card">
+          <div class="authority-card-icon">📋</div>
+          <h3>Avaliação individualizada</h3>
+          <p>Antes de qualquer procedimento, realizamos uma avaliação completa para entender suas necessidades e expectativas.</p>
+        </div>
+
+        <div class="authority-card">
+          <div class="authority-card-icon">🤝</div>
+          <h3>Foco em conforto e segurança</h3>
+          <p>Do ambiente acolhedor aos protocolos de biossegurança, tudo é pensado para que você se sinta bem e protegido.</p>
+        </div>
+
+        <div class="authority-card">
+          <div class="authority-card-icon">💬</div>
+          <h3>Comunicação clara</h3>
+          <p>Explicamos cada etapa do tratamento de forma simples e transparente, para que você tome decisões com confiança.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials section" id="depoimentos">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Depoimentos</span>
+        <h2 class="section-title mx-auto">O que nossos pacientes dizem</h2>
+        <p class="section-subtitle mx-auto">A satisfação dos nossos pacientes é o nosso maior reconhecimento. Veja o que eles têm a dizer.</p>
+      </div>
+
+      <div class="testimonials-grid reveal-stagger" id="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+          <p class="testimonial-text">Fui muito bem atendida desde o primeiro contato. A equipe explicou tudo com clareza e me senti segura durante todo o tratamento. Recomendo de olhos fechados!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M</div>
+            <div>
+              <div class="testimonial-name">Mariana Costa</div>
+              <div class="testimonial-role">Clareamento dental</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+          <p class="testimonial-text">Tinha muito medo de dentista, mas aqui mudei completamente de ideia. O ambiente é acolhedor e a equipe tem uma paciência incrível. Meus implantes ficaram perfeitos.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div>
+            <div>
+              <div class="testimonial-name">Roberto Silva</div>
+              <div class="testimonial-role">Implantes dentários</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-quote">"</div>
+          <div class="stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          </div>
+          <p class="testimonial-text">Trouxe minha filha para a primeira consulta e ela adorou. A dentista foi super carinhosa e fez a pequena se sentir em casa. Agora ela quer voltar sempre!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div>
+              <div class="testimonial-name">Camila Ferreira</div>
+              <div class="testimonial-role">Odontopediatria</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / LOCATION ============ -->
+  <section class="contact section" id="contato">
+    <div class="container">
+      <div class="contact-form-card reveal">
+        <h3>Agende sua avaliação</h3>
+        <p>Preencha o formulário e entraremos em contato para confirmar seu horário.</p>
+
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required>
+          </div>
+
+          <div class="form-group">
+            <label for="treatment">Tratamento de interesse</label>
+            <select id="treatment" name="treatment">
+              <option value="" disabled selected>Selecione uma opção</option>
+              <option value="clareamento">Clareamento dental</option>
+              <option value="limpeza">Limpeza e prevenção</option>
+              <option value="ortodontia">Ortodontia / Aparelho</option>
+              <option value="implante">Implantes dentários</option>
+              <option value="lentes">Lentes de contato dental</option>
+              <option value="restauracao">Restaurações</option>
+              <option value="canal">Tratamento de canal</option>
+              <option value="odontopediatria">Odontopediatria</option>
+              <option value="avaliacao">Avaliação geral</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem (opcional)</label>
+            <textarea id="message" name="message" placeholder="Conte-nos mais sobre o que você precisa..." rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg form-submit" id="form-submit-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+        </form>
+      </div>
+
+      <div class="location-info reveal">
+        <span class="section-label">Localização</span>
+        <h3>Venha nos visitar</h3>
+
+        <div class="location-detail">
+          <div class="location-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div>
+            <h4>Endereço</h4>
+            <p>Rua Exemplo, 123 — Centro<br>São Paulo, SP — CEP 01000-000</p>
+          </div>
+        </div>
+
+        <div class="location-detail">
+          <div class="location-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div>
+            <h4>Horário de atendimento</h4>
+            <p>Segunda a sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+          </div>
+        </div>
+
+        <div class="location-detail">
+          <div class="location-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          </div>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>(00) 00000-0000</p>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976511994287!2d-46.65486008502211!3d-23.56252678468105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1690000000000!5m2!1spt-BR!2sbr"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização da clínica OdontoVida no mapa">
+          </iframe>
+        </div>
+
+        <a href="https://maps.google.com/?q=Av.+Paulista,+São+Paulo,+SP" class="btn btn-secondary btn-sm map-btn" target="_blank" rel="noopener" id="map-directions-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+          Abrir rota no Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta" id="agendar">
+    <div class="container">
+      <h2 class="reveal">Pronto para cuidar melhor do seu sorriso?</h2>
+      <p class="reveal">Agende uma avaliação e receba um atendimento feito para entender suas necessidades. Estamos prontos para ajudá-lo a conquistar o sorriso que você merece.</p>
+
+      <div class="cta-buttons reveal">
+        <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." class="btn btn-white btn-lg" target="_blank" rel="noopener" id="cta-whatsapp-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#25D366" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chamar no WhatsApp
+        </a>
+        <a href="tel:+5500000000000" class="btn btn-outline btn-lg" id="cta-phone-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Ligar agora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon">🦷</div>
+            <span>OdontoVida</span>
+          </a>
+          <p>Cuidado odontológico moderno e humanizado, pensado para transformar a sua relação com a saúde bucal. Sua confiança é o nosso compromisso.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram da OdontoVida" id="footer-instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="WhatsApp da OdontoVida" id="footer-whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener" aria-label="Facebook da OdontoVida" id="footer-facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Links rápidos</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#tratamentos">Tratamentos</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tratamentos</h4>
+          <ul>
+            <li><a href="#tratamentos">Clareamento dental</a></li>
+            <li><a href="#tratamentos">Implantes dentários</a></li>
+            <li><a href="#tratamentos">Ortodontia</a></li>
+            <li><a href="#tratamentos">Lentes de contato</a></li>
+            <li><a href="#tratamentos">Limpeza e prevenção</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="https://wa.me/5500000000000" target="_blank" rel="noopener">(00) 00000-0000</a></li>
+            <li><a href="mailto:contato@odontovida.com.br">contato@odontovida.com.br</a></li>
+            <li><a href="#contato">Rua Exemplo, 123 — Centro</a></li>
+            <li><a href="#contato">São Paulo, SP</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 OdontoVida — Todos os direitos reservados.</p>
+        <p class="footer-disclaimer">As informações deste site têm caráter informativo e não substituem uma avaliação profissional. Consulte sempre um dentista.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOAT ============ -->
+  <a href="https://wa.me/5500000000000?text=Olá!%20Gostaria%20de%20agendar%20uma%20avaliação." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale conosco pelo WhatsApp" id="whatsapp-float-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="tooltip">Fale conosco</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
